@@ -89,3 +89,29 @@ function dist() {
 // dumi vitepress?
 // https://d.umijs.org/guide
 ```
+
+## 单元测试
+
+```js
+// jest + enzyme + puppeteer
+
+"test": "jest --config .jest.js --cache=false",
+"test:update": "jest --config .jest.js --cache=false -u",
+"test-all": "sh -e ./scripts/test-all.sh",
+"test-node": "npm run version && jest --config .jest.node.js --cache=false",
+```
+
+## 代码规范
+
+```js
+
+```
+
+## 编译发布
+
+```js
+// npm run compile
+// 使用gulp进行编译
+
+npm run publish
+```
