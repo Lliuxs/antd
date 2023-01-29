@@ -82,3 +82,10 @@ function dist() {
 ```
 
 ## 文档
+
+```js
+"start": "cross-env PORT=8001 dumi dev",
+"site": "dumi build && cp .surgeignore _site",
+// dumi vitepress?
+// https://d.umijs.org/guide
+```

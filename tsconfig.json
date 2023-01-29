@@ -2,10 +2,10 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "antd": ["components/index.ts"],
-      "antd/es/*": ["components/*"],
-      "antd/lib/*": ["components/*"],
-      "antd/locale/*": ["components/locale/*"]
+      "@ibox/antd": ["components/index.ts"],
+      "@ibox/antd/es/*": ["components/*"],
+      "@ibox/antd/lib/*": ["components/*"],
+      "@ibox/antd/locale/*": ["components/locale/*"]
     },
     "strictNullChecks": true,
     "module": "esnext",
